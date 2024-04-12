@@ -22,58 +22,61 @@
   
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>.\references\0Harmony.dll</HintPath>
+      <HintPath>..\references\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="aki-core">
-      <HintPath>.\references\aki-core.dll</HintPath>
+      <HintPath>..\references\aki-core.dll</HintPath>
     </Reference>
-    <Reference Include="aki-custom">
-      <HintPath>.\references\aki-custom.dll</HintPath>
+    <Reference Include="StayInTarkov">
+      <HintPath>..\references\StayInTarkov.dll</HintPath>
     </Reference>
     <Reference Include="aki-debugging">
-      <HintPath>.\references\aki-debugging.dll</HintPath>
+      <HintPath>..\references\aki-debugging.dll</HintPath>
     </Reference>
     <Reference Include="aki-singleplayer">
-      <HintPath>.\references\aki-singleplayer.dll</HintPath>
+      <HintPath>..\references\aki-singleplayer.dll</HintPath>
     </Reference>
     <Reference Include="Aki.Build">
-      <HintPath>.\references\Aki.Build.dll</HintPath>
+      <HintPath>..\references\Aki.Build.dll</HintPath>
     </Reference>
     <Reference Include="Aki.Common">
-      <HintPath>.\references\Aki.Common.dll</HintPath>
+      <HintPath>..\references\Aki.Common.dll</HintPath>
     </Reference>
     <Reference Include="Aki.Reflection">
-      <HintPath>.\references\Aki.Reflection.dll</HintPath>
+      <HintPath>..\references\Aki.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>.\references\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\references\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>.\references\BepInEx.dll</HintPath>
+      <HintPath>..\references\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="bsg.console.core">
-      <HintPath>.\references\bsg.console.core.dll</HintPath>
+      <HintPath>..\references\bsg.console.core.dll</HintPath>
     </Reference>
     <Reference Include="Comfort">
-      <HintPath>.\references\Comfort.dll</HintPath>
+      <HintPath>..\references\Comfort.dll</HintPath>
     </Reference>
     <Reference Include="Comfort.Unity">
-      <HintPath>.\references\Comfort.Unity.dll</HintPath>
+      <HintPath>..\references\Comfort.Unity.dll</HintPath>
     </Reference>
     <Reference Include="ConfigurationManager">
-      <HintPath>.\references\ConfigurationManager.dll</HintPath>
+      <HintPath>..\references\ConfigurationManager.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>.\references\UnityEngine.dll</HintPath>
+      <HintPath>..\references\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>.\references\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\references\UnityEngine.CoreModule.dll</HintPath>
+      <Aliases>CoreModule</Aliases>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>.\references\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath>..\references\UnityEngine.IMGUIModule.dll</HintPath>
+      <Aliases>IMGUIModule,</Aliases>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>.\references\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>..\references\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Aliases>TextRendering</Aliases>
     </Reference>
   </ItemGroup>
 
